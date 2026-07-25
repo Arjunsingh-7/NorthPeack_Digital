@@ -23,5 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 
-# Markdown files
+# Markdown files (except README)
 *.md
+!README.md
