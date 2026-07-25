@@ -1,0 +1,242 @@
+.contact {
+  background-color: var(--color-bg-secondary);
+  padding-bottom: var(--spacing-xxl);
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-lg);
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-headline {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  margin-bottom: 1rem;
+  letter-spacing: -0.02em;
+  max-width: 450px;
+}
+
+.contact-support-text {
+  font-size: clamp(1rem, 2vw, 1.125rem);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--spacing-xl);
+  max-width: 450px;
+  line-height: 1.6;
+}
+
+.agency-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: auto;
+  border-top: 1px solid rgba(21, 21, 21, 0.15);
+  padding-top: 2rem;
+}
+
+.detail-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.detail-label {
+  font-size: clamp(0.7rem, 1.5vw, 0.75rem);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text-secondary);
+}
+
+.detail-value {
+  font-size: clamp(1rem, 2vw, 1.125rem);
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--color-text-primary);
+  text-decoration: none;
+}
+
+.link-hover {
+  position: relative;
+  display: inline-block;
+  width: fit-content;
+}
+
+.link-hover::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: var(--color-text-primary);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease;
+}
+
+.link-hover:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/* Form Styles */
+.contact-form-wrapper {
+  background-color: var(--color-bg-primary);
+  padding: clamp(1.5rem, 4vw, 3rem);
+  border: var(--border-thin);
+  width: 100%;
+  max-width: 100%; /* Prevent horizontal overflow */
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(1.25rem, 3vw, 1.5rem);
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(1.25rem, 3vw, 1.5rem);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+label {
+  font-size: clamp(0.8rem, 1.5vw, 0.875rem);
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.required {
+  color: var(--color-accent);
+}
+
+.optional {
+  font-weight: 400;
+  color: var(--color-text-secondary);
+  font-size: 0.75rem;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  max-width: 100%;
+  padding: 0.875rem 1rem;
+  font-family: var(--font-primary);
+  font-size: 1rem;
+  color: var(--color-text-primary);
+  background-color: transparent;
+  border: 1px solid rgba(21, 21, 21, 0.2);
+  border-radius: 0;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  appearance: none;
+}
+
+select {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23151515' stroke-width='2' stroke-linecap='square' stroke-linejoin='miter'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  background-size: 16px;
+  padding-right: 2.5rem;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+/* Focus and active states */
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--color-text-primary);
+  box-shadow: 0 0 0 1px var(--color-text-primary);
+}
+
+/* Error states */
+input[aria-invalid="true"],
+select[aria-invalid="true"],
+textarea[aria-invalid="true"] {
+  border-color: var(--color-accent);
+}
+
+input[aria-invalid="true"]:focus,
+select[aria-invalid="true"]:focus,
+textarea[aria-invalid="true"]:focus {
+  box-shadow: 0 0 0 1px var(--color-accent);
+}
+
+.error-message {
+  color: var(--color-accent);
+  font-size: 0.75rem;
+  font-weight: 500;
+  margin-top: 0.25rem;
+}
+
+.form-submit {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+/* Success Message */
+.success-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  min-height: 400px;
+  padding: 1rem;
+}
+
+.success-icon {
+  font-size: clamp(2rem, 5vw, 3rem);
+  color: var(--color-accent);
+  margin-bottom: 1rem;
+}
+
+.success-message h3 {
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  margin-bottom: 1rem;
+}
+
+.success-message p {
+  color: var(--color-text-secondary);
+  margin-bottom: 2rem;
+}
+
+/* Responsive Adjustments */
+@media (min-width: 768px) {
+  .form-row {
+    flex-direction: row;
+  }
+  
+  .form-row .form-group {
+    flex: 1;
+  }
+  
+  .agency-details {
+    flex-direction: row;
+    gap: 3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .contact-grid {
+    grid-template-columns: 1fr 1.5fr;
+    gap: var(--spacing-xxl);
+  }
+}

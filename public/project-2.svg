@@ -1,0 +1,53 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <!-- FORMA - ARCHITECTURE STUDIO -->
+  
+  <!-- Full page background -->
+  <rect width="1920" height="1080" fill="#fafaf8"/>
+  
+  <!-- Navigation Bar -->
+  <rect width="1920" height="90" fill="#ffffff" stroke="#f5f5f5" stroke-width="1"/>
+  <text x="80" y="60" font-family="Inter, sans-serif" font-size="26" font-weight="700" fill="#1a1a1a" letter-spacing="3">FORMA</text>
+  <text x="1600" y="60" font-family="Inter, sans-serif" font-size="14" fill="#999">Work</text>
+  <text x="1750" y="60" font-family="Inter, sans-serif" font-size="14" fill="#999">Studio</text>
+  <text x="1850" y="60" font-family="Inter, sans-serif" font-size="14" fill="#999">Contact</text>
+  
+  <!-- Hero Section - Clean and Bold -->
+  <rect y="90" width="1920" height="420" fill="#fafaf8"/>
+  
+  <!-- Hero Text -->
+  <text x="80" y="180" font-family="Georgia, serif" font-size="72" font-weight="300" fill="#1a1a1a" letter-spacing="-3">Architecture</text>
+  <text x="80" y="290" font-family="Georgia, serif" font-size="72" font-weight="300" fill="#1a1a1a" letter-spacing="-3">and Design</text>
+  
+  <text x="80" y="380" font-family="Inter, sans-serif" font-size="16" fill="#666">Contemporary design studio based in Stockholm</text>
+  <text x="80" y="410" font-family="Inter, sans-serif" font-size="16" fill="#666">Specializing in residential and commercial projects</text>
+  
+  <!-- Portfolio Grid Section -->
+  <rect y="510" width="1920" height="570" fill="#ffffff"/>
+  
+  <!-- Section Header -->
+  <text x="80" y="570" font-family="Inter, sans-serif" font-size="16" font-weight="700" fill="#1a1a1a" letter-spacing="2">RECENT PROJECTS</text>
+  <line x1="80" y1="595" x2="340" y2="595" stroke="#1a1a1a" stroke-width="1"/>
+  
+  <!-- Project Grid (3 columns) -->
+  <!-- Project 1 -->
+  <rect x="80" y="640" width="560" height="380" fill="#e8e6e3" stroke="#ddd" stroke-width="1" rx="0"/>
+  <text x="360" y="820" font-family="Inter, sans-serif" font-size="14" fill="#999" text-anchor="middle">Residential Project</text>
+  <text x="100" y="1010" font-family="Inter, sans-serif" font-size="16" font-weight="600" fill="#1a1a1a">Scandinavian Loft</text>
+  <text x="100" y="1040" font-family="Inter, sans-serif" font-size="13" fill="#999">Minimalist renovation â€¢ 2024</text>
+  
+  <!-- Project 2 -->
+  <rect x="680" y="640" width="560" height="380" fill="#e8e6e3" stroke="#ddd" stroke-width="1" rx="0"/>
+  <text x="960" y="820" font-family="Inter, sans-serif" font-size="14" fill="#999" text-anchor="middle">Commercial Space</text>
+  <text x="700" y="1010" font-family="Inter, sans-serif" font-size="16" font-weight="600" fill="#1a1a1a">Gallery &amp; Studio</text>
+  <text x="700" y="1040" font-family="Inter, sans-serif" font-size="13" fill="#999">Event space design â€¢ 2024</text>
+  
+  <!-- Project 3 -->
+  <rect x="1280" y="640" width="560" height="380" fill="#e8e6e3" stroke="#ddd" stroke-width="1" rx="0"/>
+  <text x="1560" y="820" font-family="Inter, sans-serif" font-size="14" fill="#999" text-anchor="middle">Office Design</text>
+  <text x="1300" y="1010" font-family="Inter, sans-serif" font-size="16" font-weight="600" fill="#1a1a1a">Tech Headquarters</text>
+  <text x="1300" y="1040" font-family="Inter, sans-serif" font-size="13" fill="#999">Open-plan office â€¢ 2024</text>
+  
+  <!-- Bottom Stats -->
+  <rect y="1040" width="1920" height="40" fill="#f5f5f3"/>
+  <text x="80" y="1070" font-family="Inter, sans-serif" font-size="13" fill="#999">45+ Completed Projects â€¢ 12 Years Experience â€¢ Award-winning Design</text>
+</svg>

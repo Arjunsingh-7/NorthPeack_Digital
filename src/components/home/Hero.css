@@ -1,0 +1,152 @@
+.hero {
+  padding-top: clamp(2rem, 5vw, var(--spacing-lg));
+  padding-bottom: var(--spacing-xxl);
+  overflow: hidden;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-lg);
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: clamp(0.7rem, 1.5vw, 0.875rem);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text-secondary);
+  margin-bottom: var(--spacing-md);
+  flex-wrap: wrap;
+}
+
+.eyebrow-line {
+  display: inline-block;
+  width: clamp(20px, 4vw, 40px);
+  height: 1px;
+  background-color: var(--color-accent);
+}
+
+.hero-headline {
+  margin: 0;
+  letter-spacing: -0.03em;
+  line-height: 1.05;
+  word-break: break-word; /* Prevent long words overflowing on 360px */
+}
+
+.hero-secondary {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.hero-copy {
+  font-size: clamp(1.125rem, 2vw, 1.25rem);
+  line-height: 1.6;
+  max-width: 500px;
+  margin: 0;
+  color: var(--color-text-secondary);
+}
+
+.hero-ctas {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.hero-decorative {
+  display: none;
+}
+
+/* Tablet and up */
+@media (min-width: 768px) {
+  .hero-ctas {
+    flex-direction: row;
+  }
+}
+
+/* Desktop Asymmetric Layout */
+@media (min-width: 1024px) {
+  .hero {
+    padding-top: var(--spacing-xl);
+  }
+
+  .hero-grid {
+    grid-template-columns: 1.3fr 0.7fr; /* Balanced asymmetry avoiding wide lines */
+    align-items: end;
+    gap: var(--spacing-xl);
+  }
+
+  .hero-secondary {
+    padding-bottom: 1rem;
+    position: relative;
+  }
+
+  .hero-decorative {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    top: -150px;
+    right: 0;
+    gap: 1rem;
+  }
+
+  .decorative-number {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-text-secondary);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .decorative-line {
+    width: 1px;
+    height: 120px;
+    background-color: var(--color-text-primary);
+    opacity: 0.2;
+  }
+}
+
+/* Mobile Adjustments - 360px focus */
+@media (max-width: 480px) {
+  .hero-ctas {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .hero-ctas .btn {
+    width: 100%;
+  }
+}
+
+/* Animations */
+@media (prefers-reduced-motion: no-preference) {
+  .hero-headline {
+    animation: fadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    opacity: 0;
+    transform: translateY(20px);
+    will-change: transform, opacity;
+  }
+
+  .hero-secondary {
+    animation: fadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.2s forwards;
+    opacity: 0;
+    transform: translateY(20px);
+    will-change: transform, opacity;
+  }
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

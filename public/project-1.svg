@@ -1,0 +1,82 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="aster-hero-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fef9f3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#faf5ed;stop-opacity:1" />
+    </linearGradient>
+    <pattern id="hero-img1" patternUnits="userSpaceOnUse" width="100" height="100">
+      <rect width="100" height="100" fill="#e8d4c4"/>
+      <circle cx="30" cy="30" r="3" fill="#d4b8a8" opacity="0.4"/>
+      <circle cx="70" cy="70" r="2" fill="#d4b8a8" opacity="0.3"/>
+    </pattern>
+  </defs>
+  
+  <!-- Full page background -->
+  <rect width="1920" height="1080" fill="#fefdfb"/>
+  
+  <!-- Navigation Bar -->
+  <rect width="1920" height="80" fill="#ffffff" opacity="0.98" stroke="#f5f5f5" stroke-width="1"/>
+  <text x="60" y="50" font-family="Georgia, serif" font-size="28" font-weight="400" fill="#2a2a2a">ASTER &amp; CO</text>
+  <text x="1600" y="50" font-family="Inter, sans-serif" font-size="14" fill="#888">New</text>
+  <text x="1720" y="50" font-family="Inter, sans-serif" font-size="14" fill="#888">Shop</text>
+  <text x="1820" y="50" font-family="Inter, sans-serif" font-size="14" fill="#888">About</text>
+  <text x="1880" y="50" font-family="Inter, sans-serif" font-size="14" fill="#888">Cart</text>
+  
+  <!-- Hero Section - Large and Bold -->
+  <rect y="80" width="1920" height="450" fill="url(#aster-hero-grad)"/>
+  
+  <!-- Main image area (left side) -->
+  <rect x="80" y="120" width="720" height="380" fill="url(#hero-img1)" rx="8"/>
+  <text x="440" y="300" font-family="Georgia, serif" font-size="48" font-weight="300" fill="#c4a898" text-anchor="middle">Premium Collection</text>
+  
+  <!-- Hero Text (right side) -->
+  <text x="880" y="150" font-family="Georgia, serif" font-size="56" font-weight="300" fill="#2a2a2a" letter-spacing="-2">Luxury</text>
+  <text x="880" y="220" font-family="Georgia, serif" font-size="56" font-weight="300" fill="#2a2a2a" letter-spacing="-2">Redefined</text>
+  
+  <text x="880" y="300" font-family="Inter, sans-serif" font-size="16" fill="#666">Handcrafted pieces from artisans around the world.</text>
+  <text x="880" y="330" font-family="Inter, sans-serif" font-size="16" fill="#666">Each item tells a story of craftsmanship and elegance.</text>
+  
+  <!-- CTA Button -->
+  <rect x="880" y="370" width="280" height="60" fill="#c4a898" rx="4"/>
+  <text x="1020" y="408" font-family="Inter, sans-serif" font-size="16" font-weight="600" fill="#ffffff" text-anchor="middle">DISCOVER COLLECTION</text>
+  
+  <!-- Featured Products Section -->
+  <rect y="530" width="1920" height="550" fill="#faf7f3"/>
+  
+  <!-- Section Header -->
+  <text x="80" y="590" font-family="Inter, sans-serif" font-size="18" font-weight="600" fill="#2a2a2a" letter-spacing="1">THIS SEASON'S ESSENTIALS</text>
+  <line x1="80" y1="610" x2="320" y2="610" stroke="#c4a898" stroke-width="2"/>
+  
+  <!-- Product Cards Grid -->
+  <!-- Product 1 -->
+  <rect x="80" y="650" width="400" height="380" fill="#ffffff" stroke="#f0ebe5" stroke-width="1" rx="6"/>
+  <rect x="80" y="650" width="400" height="240" fill="#d4b8a8"/>
+  <text x="280" y="765" font-family="Inter, sans-serif" font-size="13" fill="#a8a8a8" text-anchor="middle">Premium Leather</text>
+  <text x="100" y="920" font-family="Georgia, serif" font-size="17" font-weight="500" fill="#2a2a2a">Artisan Leather Tote</text>
+  <text x="100" y="950" font-family="Inter, sans-serif" font-size="13" fill="#999">Italian leather â€¢ Limited stock</text>
+  <text x="100" y="1000" font-family="Georgia, serif" font-size="20" font-weight="600" fill="#c4a898">$1,250</text>
+  
+  <!-- Product 2 -->
+  <rect x="540" y="650" width="400" height="380" fill="#ffffff" stroke="#f0ebe5" stroke-width="1" rx="6"/>
+  <rect x="540" y="650" width="400" height="240" fill="#d4b8a8"/>
+  <text x="740" y="765" font-family="Inter, sans-serif" font-size="13" fill="#a8a8a8" text-anchor="middle">Silk Accessories</text>
+  <text x="560" y="920" font-family="Georgia, serif" font-size="17" font-weight="500" fill="#2a2a2a">Luxury Silk Scarf Set</text>
+  <text x="560" y="950" font-family="Inter, sans-serif" font-size="13" fill="#999">Italian silk â€¢ Hand-sewn</text>
+  <text x="560" y="1000" font-family="Georgia, serif" font-size="20" font-weight="600" fill="#c4a898">$580</text>
+  
+  <!-- Product 3 -->
+  <rect x="1000" y="650" width="400" height="380" fill="#ffffff" stroke="#f0ebe5" stroke-width="1" rx="6"/>
+  <rect x="1000" y="650" width="400" height="240" fill="#d4b8a8"/>
+  <text x="1200" y="765" font-family="Inter, sans-serif" font-size="13" fill="#a8a8a8" text-anchor="middle">Designer Jewelry</text>
+  <text x="1020" y="920" font-family="Georgia, serif" font-size="17" font-weight="500" fill="#2a2a2a">Brass Jewelry Collection</text>
+  <text x="1020" y="950" font-family="Inter, sans-serif" font-size="13" fill="#999">Handcrafted â€¢ Limited edition</text>
+  <text x="1020" y="1000" font-family="Georgia, serif" font-size="20" font-weight="600" fill="#c4a898">$380</text>
+  
+  <!-- Product 4 -->
+  <rect x="1460" y="650" width="400" height="380" fill="#ffffff" stroke="#f0ebe5" stroke-width="1" rx="6"/>
+  <rect x="1460" y="650" width="400" height="240" fill="#d4b8a8"/>
+  <text x="1660" y="765" font-family="Inter, sans-serif" font-size="13" fill="#a8a8a8" text-anchor="middle">Home Essentials</text>
+  <text x="1480" y="920" font-family="Georgia, serif" font-size="17" font-weight="500" fill="#2a2a2a">Linen Throw Pillow</text>
+  <text x="1480" y="950" font-family="Inter, sans-serif" font-size="13" fill="#999">European linen â€¢ Soft touch</text>
+  <text x="1480" y="1000" font-family="Georgia, serif" font-size="20" font-weight="600" fill="#c4a898">$240</text>
+</svg>
