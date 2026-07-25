@@ -26,3 +26,8 @@ dist-ssr
 # Markdown files (except README)
 *.md
 !README.md
+
+# Allow images in docs folder
+!docs/**/*.png
+!docs/**/*.jpg
+!docs/**/*.jpeg
