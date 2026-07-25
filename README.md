@@ -8,13 +8,7 @@ The project focuses on clean UI, semantic HTML, responsive layouts, accessibilit
 
 ## Live Demo
 
-🔗 **Live Website:** [NorthPeak Digital on Vercel](https://northpeak-digital.vercel.app)
-
----
-
-## GitHub Repository
-
-🔗 **Repository:** [github.com/Arjunsingh-7/NorthPeack_Digital](https://github.com/Arjunsingh-7/NorthPeack_Digital)
+🔗 **Live Website:** [NorthPeak Digital on Vercel](https://north-peack-digital-muzr.vercel.app/)
 
 ---
 
