@@ -18,12 +18,6 @@ The project focuses on clean UI, semantic HTML, responsive layouts, accessibilit
 
 ---
 
-## Preview
-
-![NorthPeak Digital Landing Page](./docs/preview.png)
-
----
-
 ## Features
 
 - ✅ Responsive one-page agency website
@@ -112,7 +106,7 @@ Implemented accessibility improvements:
 | Best Practices | 100 |
 | SEO | 100 |
 
-![Desktop Lighthouse](./docs/lighthouse-desktop.png)
+![Desktop Lighthouse](public/lighthouse-desktop.png)
 
 ### Mobile
 
@@ -123,7 +117,7 @@ Implemented accessibility improvements:
 | Best Practices | 100 |
 | SEO | 100 |
 
-![Mobile Lighthouse](./docs/lighthouse-mobile.png)
+![Mobile Lighthouse](public/lighthouse-mobile.png)
 
 ---
 
